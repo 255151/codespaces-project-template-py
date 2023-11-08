@@ -11,3 +11,16 @@ services:
     command: ["sh", "-c", "pip install debugpy -t /tmp && python /tmp/debugpy --listen 0.0.0.0:5678 main.py "]
     ports:
       - 5678:5678
+
+      
+#{
+#  "meta": {
+#    "name": "openaq-api",
+#    "license": "",
+#    "website": "/",
+#    "page": 1,
+#    "limit": 100,
+#    "found": 0
+#  },
+#  "results": []
+#}
