@@ -9,6 +9,4 @@ res = requests.get("https://api.openaq.org/v2/locations/2178")
 while (True):
     print('Test2')
     sleep(2)
-
-
-
+    
